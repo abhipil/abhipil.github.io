@@ -1,0 +1,33 @@
+{
+  "name": "abhipil",
+  "version": "0.1.0",
+  "description": "Abhishek Pillai's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server -p 8001 -c-1 & watchify index.js -o public/bundle.js --debug --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhipil/abhipil.github.io.git"
+  },
+  "keywords": [
+    "abhipil",
+    "portfolio",
+    "website"
+  ],
+  "author": "Abhishek Pillai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhipil/abhipil.github.io/issues"
+  },
+  "homepage": "https://github.com/abhipil/abhipil.github.io#readme",
+  "dependencies": {
+    "life": "git+ssh://git@github.com/abhipil/life.git",
+    "typed.js": "git+ssh://git@github.com/mattboldt/typed.js.git"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "watchify": "^3.9.0"
+  }
+}
